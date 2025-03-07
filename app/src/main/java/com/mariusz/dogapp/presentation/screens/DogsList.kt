@@ -53,7 +53,6 @@ fun DogsList(
     dogs: List<String>,
     likedDogs: MutableState<MutableMap<String, Boolean>>,
     dogBreedsMap: Map<String, String>,
-    dogBreeds: List<String>,
     searchQuery: String,
     navController: NavController,
     onNameChange: (String) -> Unit,
@@ -66,7 +65,7 @@ fun DogsList(
         topBar = {
             CenterAlignedTopAppBar(
                 title = {
-                    Text("Detale")
+                    Text("Doggos")
                 },
                 navigationIcon = {
                     IconButton(onClick = {navController.navigate(Settings)}) {
