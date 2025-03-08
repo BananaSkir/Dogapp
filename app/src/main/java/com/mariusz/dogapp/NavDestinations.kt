@@ -1,4 +1,4 @@
-package com.mariusz.dogapp.data.models
+package com.mariusz.dogapp
 
 import kotlinx.serialization.Serializable
 
